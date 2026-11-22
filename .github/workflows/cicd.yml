@@ -19,13 +19,13 @@ jobs :
     runs-on: ubuntu-latest
     steps:
       - name: Running test cases
-        run : echo"Testing the app"
+        run : echo "Testing the app"
   deploy:
     needs: [build ,test]
     runs-on: ubuntu-latest
     steps:
       - name: Deploying on the machine
-        run: echo"Deploying the code"
+        run: echo "Deploying the code"
  
  
   
