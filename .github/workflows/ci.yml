@@ -20,7 +20,7 @@ jobs:
         uses: docker/build-push-action@v7
         with:
           push: true
-          tags: ${{vars.DOCKERHUB_USERNAME}}/github-action-practice-fe-main:latest
+          tags: ${{vars.DOCKERHUB_USERNAME}}/github-action-practice:latest
     
           
     
